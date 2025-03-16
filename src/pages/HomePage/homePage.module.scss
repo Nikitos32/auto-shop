@@ -1,0 +1,20 @@
+.homePageWrapper {
+  padding: 40px 0;
+}
+
+.brands {
+  width: 90%;
+  margin: 0 auto;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.brandsText {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

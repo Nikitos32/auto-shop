@@ -1,0 +1,16 @@
+.sliderSectionWrapper {
+  display: flex;
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.swiper {
+  width: 1000px;
+}
+
+.img {
+  height: 400px;
+  object-fit: cover;
+}
