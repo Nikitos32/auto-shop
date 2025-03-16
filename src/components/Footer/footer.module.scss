@@ -1,0 +1,102 @@
+.footerText {
+  width: 100%;
+  height: 55px;
+  background-color: rgba(43, 42, 74, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 11px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer {
+  background-color: rgba(245, 246, 248, 1);
+  font-size: 16px;
+  & h2 {
+    font-size: 16px;
+  }
+}
+
+.footerWrapper {
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerContacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.phonesWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  & p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  width: 160px;
+  height: 40px;
+  background-color: rgba(43, 42, 74, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 10px rgba(43, 42, 74, 1);
+  }
+}
+
+.onlineWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  & p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.listWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  & a:hover {
+    text-decoration: underline;
+  }
+}
+
+.socialWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+}

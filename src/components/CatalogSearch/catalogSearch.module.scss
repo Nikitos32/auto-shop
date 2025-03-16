@@ -1,0 +1,25 @@
+.historyWrapper {
+  background-color: rgba(242, 243, 245, 1);
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.historyContainer {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+
+  & p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.icons {
+  font-size: 20px;
+}
