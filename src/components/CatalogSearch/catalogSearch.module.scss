@@ -14,10 +14,13 @@
   width: 90%;
   margin: 0 auto;
 
-  & p {
+  & a {
     display: flex;
     align-items: center;
     gap: 10px;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

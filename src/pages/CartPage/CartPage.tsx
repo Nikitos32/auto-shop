@@ -8,12 +8,17 @@ import { CatalogItem } from '../../components/CatalogItem/CatalogItem';
 
 export const CartPage = () => {
   const [cart, setCart] = useState([]);
+  const [amountDifference, setAmountDifference] = useState(0);
 
   useEffect(() => {
     const cartLocalStorage = JSON.parse(localStorage.getItem('cart') as string);
 
     if (cartLocalStorage) setCart(cartLocalStorage);
-  }, []);
+  }, [amountDifference]);
+
+  const handleClearCart = () => {
+    setAmountDifference((prevState) => prevState + 1);
+  };
 
   return (
     <div className={classes.cartPageWrapper}>
@@ -21,7 +26,11 @@ export const CartPage = () => {
       <div className={classes.cartPageContainerWrapper}>
         {cart.length > 0 ? (
           cart.map((item: CatalogItemCart) => (
-            <CatalogItem isCart={true} {...item} />
+            <CatalogItem
+              setAmountDifference={handleClearCart}
+              isCart={true}
+              {...item}
+            />
           ))
         ) : (
           <div className={classes.cartPageContainer}>

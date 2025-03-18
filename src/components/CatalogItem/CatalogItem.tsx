@@ -10,6 +10,7 @@ export const CatalogItem = ({
   price,
   count,
   isCart,
+  setAmountDifference,
 }: CatalogItemProps) => {
   const [myCount, setCount] = useState(count ?? 0);
 
@@ -31,6 +32,7 @@ export const CatalogItem = ({
       );
 
       if (isCart) {
+        setAmountDifference?.();
         localStorage.setItem(
           'cart',
           JSON.stringify(

@@ -4,6 +4,7 @@ export interface CatalogItemProps {
   price: string;
   isCart?: boolean;
   count?: number;
+  setAmountDifference?: () => void;
 }
 
 export interface CatalogItemCart {
