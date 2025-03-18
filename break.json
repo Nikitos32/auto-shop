@@ -1,0 +1,28 @@
+{
+  "break": [
+    {
+      "title": "Titan Brake Pads",
+      "price": 45.0
+    },
+    {
+      "title": "Premium Brake Rotors",
+      "price": 85.0
+    },
+    {
+      "title": "High-Performance Brake Calipers",
+      "price": 150.0
+    },
+    {
+      "title": "Advanced Brake Lines",
+      "price": 60.0
+    },
+    {
+      "title": "Disc Brake Hardware Kit",
+      "price": 25.0
+    },
+    {
+      "title": "Brake Fluid Dot 4",
+      "price": 12.0
+    }
+  ]
+}

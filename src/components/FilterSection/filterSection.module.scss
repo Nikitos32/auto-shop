@@ -1,0 +1,19 @@
+.filterSection {
+  color: white;
+  display: flex;
+  height: 100px;
+  gap: 20px;
+  background: rgba(43, 42, 74, 1);
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  border-radius: 8px;
+
+  & select {
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: 600;
+  }
+}

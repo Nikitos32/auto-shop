@@ -1,0 +1,33 @@
+.cartPageWrapper {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.cartPageContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+  & > div {
+    border-radius: 50%;
+    height: 190px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: gainsboro;
+    text-align: center;
+  }
+}
+
+.cartPageContainerWrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

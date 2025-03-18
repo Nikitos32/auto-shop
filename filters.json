@@ -1,0 +1,28 @@
+{
+  "filters": [
+    {
+      "title": "UltraClean Oil Filter",
+      "price": 19.99
+    },
+    {
+      "title": "EcoGuard Air Filter",
+      "price": 14.49
+    },
+    {
+      "title": "MaxFlow Fuel Filter",
+      "price": 22.99
+    },
+    {
+      "title": "FreshFlow Cabin Filter",
+      "price": 16.75
+    },
+    {
+      "title": "Performance Pro Transmission Filter",
+      "price": 27.5
+    },
+    {
+      "title": "HeavyDuty Hydraulic Filter",
+      "price": 35.0
+    }
+  ]
+}

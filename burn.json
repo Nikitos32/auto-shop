@@ -1,0 +1,28 @@
+{
+  "burn": [
+    {
+      "title": "Ignition Coil Pack",
+      "price": 60.0
+    },
+    {
+      "title": "High-Performance Spark Plugs",
+      "price": 25.0
+    },
+    {
+      "title": "Ignition Control Module",
+      "price": 75.0
+    },
+    {
+      "title": "Distributor Cap and Rotor Kit",
+      "price": 30.0
+    },
+    {
+      "title": "Ignition Wires Set",
+      "price": 40.0
+    },
+    {
+      "title": "Crankshaft Position Sensor",
+      "price": 50.0
+    }
+  ]
+}

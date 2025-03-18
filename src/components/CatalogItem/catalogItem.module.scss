@@ -1,0 +1,114 @@
+.catalogItemWrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 360px;
+  height: 350px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-radius: 8px;
+
+  & > h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+
+.catalogItemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  background: gainsboro;
+  border-radius: 8px;
+
+  & > p:not(:last-child) {
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 10px;
+
+    & span {
+      font-size: 20px;
+    }
+  }
+}
+
+.catalogItemCounterWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.catalogItemCounter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 10px;
+
+  & button:not(:last-child) {
+    border: none;
+    background: ghostwhite;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background: rgba(43, 42, 74, 1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+      color: white;
+    }
+  }
+}
+
+.catalogItemBuyText {
+  font-size: 12px;
+  max-width: 50px;
+  padding-right: 10px;
+}
+
+.cartButton {
+  width: 40px;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background: rgba(43, 42, 74, 1);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  }
+}
+
+.catalogItemWrapperMainInfo {
+  width: 100%;
+}
+
+.catalogItemStock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
